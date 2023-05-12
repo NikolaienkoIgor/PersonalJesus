@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "myGuruApp",
+            "request": "launch",
+            "type": "dart",
+            "preLaunchTask": "flutter run -d chrome"
+        },
+        {
+            "name": "myGuruApp (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "myGuruApp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+# Flutter-related
+**/Flutter/ephemeral/
+**/Pods/
+
+# Xcode-related
+**/dgph
+**/xcuserdata/
+Pods/
+Podfile.lock
+*/.symlinks/
+*/.flutter-plugins
+*/.flutter-plugins-dependencies
+*/.metadata
+ios/Pods/
+ios/Flutter/Flutter.xcworkspace/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/AppFrameworkInfo.plist
+ios/Flutter/flutter_assets/
+build/
+*/.DS_Store
+.DS_Store
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
