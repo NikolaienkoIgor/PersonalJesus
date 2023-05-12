@@ -28,7 +28,7 @@ class _ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Chat')),
+      appBar: AppBar(title: const Text('Personal Jesus Chat')),
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(

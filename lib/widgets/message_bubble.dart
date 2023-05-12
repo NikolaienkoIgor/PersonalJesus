@@ -19,8 +19,8 @@ class MessageBubble extends StatelessWidget {
       margin: const EdgeInsets.all(8),
       decoration: BoxDecoration(
         color: isUserMessage // колір фону залежно від того, хто відправив повідомлення
-            ? themeData.colorScheme.primary.withOpacity(1.0)
-            : themeData.colorScheme.secondary.withOpacity(1.0),
+            ? themeData.colorScheme.primary.withOpacity(0.8)
+            : themeData.colorScheme.secondary.withOpacity(0.8),
         borderRadius: const BorderRadius.all(Radius.circular(12)),
       ),
       child: Padding(
