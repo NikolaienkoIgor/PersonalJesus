@@ -21,7 +21,7 @@ class ChatApi {
       messages: messages
           .map((e) => OpenAIChatCompletionChoiceMessageModel(
               role: e.isUserMessage ? OpenAIChatMessageRole.user : OpenAIChatMessageRole.assistant,
-              content: isValue ? "You are an assistant that speaks like Ekhart Tolle in German." : e.content,
+              content: isValue ? "You are an assistant that speaks like Jesus in language us have bin asked." : e.content,
               ))
           .toList(),
     );
