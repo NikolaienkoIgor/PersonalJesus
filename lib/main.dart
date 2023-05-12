@@ -36,7 +36,7 @@ class ChatApp extends StatelessWidget {
       theme: ThemeData(
         // Зміна колярів по RGB
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color.fromRGBO(214, 242, 244, 1),
+          seedColor: Color.fromRGBO(151, 224, 233, 1),
           secondary: Color.fromRGBO(236, 231, 231, 1),
         ),
       ),
